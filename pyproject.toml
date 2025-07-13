@@ -12,6 +12,7 @@ pydantic = "^2.11.7"
 polyfactory = "^2.22.0"
 faker = "^37.4.0"
 numpy = "<2.3.1"
+erdantic = "^1.1.0.post1"
 
 
 [build-system]
