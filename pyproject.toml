@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "linkml-pydantic-polyfactory"
+version = "0.1.0"
+description = ""
+authors = ["James Bristow <james.bristow@plantandfood.co.nz>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = ">=3.10,<4.0"
+linkml = "^1.9.2"
+pydantic = "^2.11.7"
+polyfactory = "^2.22.0"
+faker = "^37.4.0"
+numpy = "<2.3.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
